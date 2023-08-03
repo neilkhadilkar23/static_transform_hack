@@ -1,0 +1,12 @@
+[0.020s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+[0.072s] [35m[1mScanning dependencies of target geo_transform[0m
+[0.106s] [ 50%] [32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o[0m
+[1.619s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K In lambda function:
+[1.619s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:116:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.619s]   116 |   auto lambda = [&](double a, double b){return abs(a) + abs(b)[01;31m[K}[m[K;
+[1.619s]       |                                                               [01;31m[K^[m[K
+[1.619s]       |                                                               [32m[K;[m[K
+[3.367s] make[2]: *** [CMakeFiles/geo_transform.dir/build.make:63: CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o] Error 1
+[3.368s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/geo_transform.dir/all] Error 2
+[3.368s] make: *** [Makefile:141: all] Error 2
+[3.370s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8

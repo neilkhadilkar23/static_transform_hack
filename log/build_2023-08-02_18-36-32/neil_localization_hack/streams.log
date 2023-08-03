@@ -1,0 +1,12 @@
+[0.025s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+[0.216s] [35m[1mScanning dependencies of target geo_transform[0m
+[0.256s] [ 50%] [32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o[0m
+[2.102s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K In member function ‘[01m[Kvoid MapFrameInit::topic_callback(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.102s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:62:7:[m[K [01;31m[Kerror: [m[K‘[01m[KRClCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_INFO[m[K’?
+[2.102s]    62 |       [01;31m[KRClCPP_INFO[m[K(this->get_logger(), "me setting thie latitude, %d", this->m_lat);
+[2.102s]       |       [01;31m[K^~~~~~~~~~~[m[K
+[2.102s]       |       [32m[KRCLCPP_INFO[m[K
+[3.946s] make[2]: *** [CMakeFiles/geo_transform.dir/build.make:63: CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o] Error 1
+[3.947s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/geo_transform.dir/all] Error 2
+[3.947s] make: *** [Makefile:141: all] Error 2
+[3.949s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8

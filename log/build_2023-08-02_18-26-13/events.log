@@ -1,0 +1,207 @@
+[0.000000] (-) TimerEvent: {}
+[0.000626] (neil_localization_hack) JobQueued: {'identifier': 'neil_localization_hack', 'dependencies': OrderedDict()}
+[0.000667] (neil_localization_hack) JobStarted: {'identifier': 'neil_localization_hack'}
+[0.016596] (neil_localization_hack) JobProgress: {'identifier': 'neil_localization_hack', 'progress': 'cmake'}
+[0.017020] (neil_localization_hack) Command: {'cmd': ['/usr/bin/cmake', '/home/neil/ros2_neil_ws/src/neil_localization_hack', '-DCMAKE_INSTALL_PREFIX=/home/neil/ros2_neil_ws/install/neil_localization_hack'], 'cwd': '/home/neil/ros2_neil_ws/build/neil_localization_hack', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neil'), ('SSH_AGENT_PID', '1622'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/neil'), ('OLDPWD', '/home/neil'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1425'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'neil'), ('JOURNAL_STREAM', '8:49486'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'neil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/neil/.local/bin:/home/neil/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/neil-Inspiron-5379:@/tmp/.ICE-unix/1966,unix/neil-Inspiron-5379:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '8445618c0dab4156858f33e55150047c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f43a85ae_131b_4df7_91d2_0dbf441ca482'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/neil/ros2_neil_ws/build/neil_localization_hack'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/Vimba_6_0/VimbaUSBTL/CTI/x86_64bit'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.100070] (-) TimerEvent: {}
+[0.200582] (-) TimerEvent: {}
+[0.286669] (neil_localization_hack) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.300679] (-) TimerEvent: {}
+[0.400996] (-) TimerEvent: {}
+[0.491996] (neil_localization_hack) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.500033] (neil_localization_hack) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.501078] (-) TimerEvent: {}
+[0.579520] (neil_localization_hack) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.580975] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.601195] (-) TimerEvent: {}
+[0.662664] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.675308] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.675893] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.679478] (neil_localization_hack) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.701326] (-) TimerEvent: {}
+[0.762917] (neil_localization_hack) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.764337] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.801460] (-) TimerEvent: {}
+[0.849147] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.861697] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.862210] (neil_localization_hack) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.891323] (neil_localization_hack) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.901605] (-) TimerEvent: {}
+[0.932992] (neil_localization_hack) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.933301] (neil_localization_hack) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.001740] (-) TimerEvent: {}
+[1.102183] (-) TimerEvent: {}
+[1.203105] (-) TimerEvent: {}
+[1.218472] (neil_localization_hack) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.277353] (neil_localization_hack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.285179] (neil_localization_hack) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.303401] (-) TimerEvent: {}
+[1.393821] (neil_localization_hack) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.403452] (-) TimerEvent: {}
+[1.422252] (neil_localization_hack) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.503601] (-) TimerEvent: {}
+[1.504208] (neil_localization_hack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.569456] (neil_localization_hack) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.571775] (neil_localization_hack) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.573774] (neil_localization_hack) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.603692] (-) TimerEvent: {}
+[1.654727] (neil_localization_hack) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.654951] (neil_localization_hack) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.703845] (-) TimerEvent: {}
+[1.735269] (neil_localization_hack) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.735473] (neil_localization_hack) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.803992] (-) TimerEvent: {}
+[1.850327] (neil_localization_hack) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.850642] (neil_localization_hack) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.904136] (-) TimerEvent: {}
+[1.940941] (neil_localization_hack) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.942312] (neil_localization_hack) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.004352] (-) TimerEvent: {}
+[2.104968] (-) TimerEvent: {}
+[2.205712] (-) TimerEvent: {}
+[2.306392] (-) TimerEvent: {}
+[2.407185] (-) TimerEvent: {}
+[2.507661] (-) TimerEvent: {}
+[2.608350] (-) TimerEvent: {}
+[2.709002] (-) TimerEvent: {}
+[2.728576] (neil_localization_hack) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[2.809134] (-) TimerEvent: {}
+[2.883134] (neil_localization_hack) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[2.898314] (neil_localization_hack) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[2.909246] (-) TimerEvent: {}
+[3.009477] (-) TimerEvent: {}
+[3.109817] (-) TimerEvent: {}
+[3.210201] (-) TimerEvent: {}
+[3.310757] (-) TimerEvent: {}
+[3.324942] (neil_localization_hack) StdoutLine: {'line': b'-- Found GeographicLib: /usr/lib/x86_64-linux-gnu  \n'}
+[3.328293] (neil_localization_hack) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.410848] (-) TimerEvent: {}
+[3.455797] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.457639] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.457995] (neil_localization_hack) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/neil/ros2_neil_ws/src/neil_localization_hack/include;$<BUILD_INTERFACE:/home/neil/ros2_neil_ws/src/neil_localization_hack/include>\n'}
+[3.458121] (neil_localization_hack) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.459465] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.459595] (neil_localization_hack) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.460730] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.462545] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.462728] (neil_localization_hack) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.463378] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.470361] (neil_localization_hack) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.511316] (-) TimerEvent: {}
+[3.519558] (neil_localization_hack) StdoutLine: {'line': b'-- Generating done\n'}
+[3.522757] (neil_localization_hack) StdoutLine: {'line': b'-- Build files have been written to: /home/neil/ros2_neil_ws/build/neil_localization_hack\n'}
+[3.533691] (neil_localization_hack) CommandEnded: {'returncode': 0}
+[3.534419] (neil_localization_hack) JobProgress: {'identifier': 'neil_localization_hack', 'progress': 'build'}
+[3.536796] (neil_localization_hack) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/neil/ros2_neil_ws/build/neil_localization_hack', '--', '-j8', '-l8'], 'cwd': '/home/neil/ros2_neil_ws/build/neil_localization_hack', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neil'), ('SSH_AGENT_PID', '1622'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/neil'), ('OLDPWD', '/home/neil'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1425'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'neil'), ('JOURNAL_STREAM', '8:49486'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'neil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/neil/.local/bin:/home/neil/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/neil-Inspiron-5379:@/tmp/.ICE-unix/1966,unix/neil-Inspiron-5379:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '8445618c0dab4156858f33e55150047c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f43a85ae_131b_4df7_91d2_0dbf441ca482'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/neil/ros2_neil_ws/build/neil_localization_hack'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/Vimba_6_0/VimbaUSBTL/CTI/x86_64bit'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[3.587546] (neil_localization_hack) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target geo_transform\x1b[0m\n'}
+[3.611394] (-) TimerEvent: {}
+[3.712097] (-) TimerEvent: {}
+[3.738644] (neil_localization_hack) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o\x1b[0m\n'}
+[3.812241] (-) TimerEvent: {}
+[3.912518] (-) TimerEvent: {}
+[4.012764] (-) TimerEvent: {}
+[4.113034] (-) TimerEvent: {}
+[4.213453] (-) TimerEvent: {}
+[4.313741] (-) TimerEvent: {}
+[4.414267] (-) TimerEvent: {}
+[4.514636] (-) TimerEvent: {}
+[4.615274] (-) TimerEvent: {}
+[4.716251] (-) TimerEvent: {}
+[4.816785] (-) TimerEvent: {}
+[4.917240] (-) TimerEvent: {}
+[5.017735] (-) TimerEvent: {}
+[5.118113] (-) TimerEvent: {}
+[5.218561] (-) TimerEvent: {}
+[5.318868] (-) TimerEvent: {}
+[5.419173] (-) TimerEvent: {}
+[5.519441] (-) TimerEvent: {}
+[5.619730] (-) TimerEvent: {}
+[5.720017] (-) TimerEvent: {}
+[5.820347] (-) TimerEvent: {}
+[5.920673] (-) TimerEvent: {}
+[6.020983] (-) TimerEvent: {}
+[6.121248] (-) TimerEvent: {}
+[6.221592] (-) TimerEvent: {}
+[6.322039] (-) TimerEvent: {}
+[6.422762] (-) TimerEvent: {}
+[6.523065] (-) TimerEvent: {}
+[6.623356] (-) TimerEvent: {}
+[6.723680] (-) TimerEvent: {}
+[6.823982] (-) TimerEvent: {}
+[6.924372] (-) TimerEvent: {}
+[7.024734] (-) TimerEvent: {}
+[7.125048] (-) TimerEvent: {}
+[7.225374] (-) TimerEvent: {}
+[7.325640] (-) TimerEvent: {}
+[7.425972] (-) TimerEvent: {}
+[7.526309] (-) TimerEvent: {}
+[7.626632] (-) TimerEvent: {}
+[7.726960] (-) TimerEvent: {}
+[7.827257] (-) TimerEvent: {}
+[7.927581] (-) TimerEvent: {}
+[8.027917] (-) TimerEvent: {}
+[8.128233] (-) TimerEvent: {}
+[8.228551] (-) TimerEvent: {}
+[8.328830] (-) TimerEvent: {}
+[8.429157] (-) TimerEvent: {}
+[8.529669] (-) TimerEvent: {}
+[8.630078] (-) TimerEvent: {}
+[8.730436] (-) TimerEvent: {}
+[8.830720] (-) TimerEvent: {}
+[8.930995] (-) TimerEvent: {}
+[9.031290] (-) TimerEvent: {}
+[9.131549] (-) TimerEvent: {}
+[9.231846] (-) TimerEvent: {}
+[9.332224] (-) TimerEvent: {}
+[9.432608] (-) TimerEvent: {}
+[9.533111] (-) TimerEvent: {}
+[9.633480] (-) TimerEvent: {}
+[9.733830] (-) TimerEvent: {}
+[9.834181] (-) TimerEvent: {}
+[9.934507] (-) TimerEvent: {}
+[10.034826] (-) TimerEvent: {}
+[10.135259] (-) TimerEvent: {}
+[10.235754] (-) TimerEvent: {}
+[10.336141] (-) TimerEvent: {}
+[10.436555] (-) TimerEvent: {}
+[10.536955] (-) TimerEvent: {}
+[10.637326] (-) TimerEvent: {}
+[10.737735] (-) TimerEvent: {}
+[10.838088] (-) TimerEvent: {}
+[10.938450] (-) TimerEvent: {}
+[11.024112] (neil_localization_hack) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable geo_transform\x1b[0m\n'}
+[11.038584] (-) TimerEvent: {}
+[11.139177] (-) TimerEvent: {}
+[11.239708] (-) TimerEvent: {}
+[11.340260] (-) TimerEvent: {}
+[11.440723] (-) TimerEvent: {}
+[11.541050] (-) TimerEvent: {}
+[11.641402] (-) TimerEvent: {}
+[11.741846] (-) TimerEvent: {}
+[11.838536] (neil_localization_hack) StdoutLine: {'line': b'[100%] Built target geo_transform\n'}
+[11.841974] (-) TimerEvent: {}
+[11.853519] (neil_localization_hack) CommandEnded: {'returncode': 0}
+[11.886861] (neil_localization_hack) JobProgress: {'identifier': 'neil_localization_hack', 'progress': 'install'}
+[11.903600] (neil_localization_hack) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/neil/ros2_neil_ws/build/neil_localization_hack'], 'cwd': '/home/neil/ros2_neil_ws/build/neil_localization_hack', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neil'), ('SSH_AGENT_PID', '1622'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/neil'), ('OLDPWD', '/home/neil'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1425'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'neil'), ('JOURNAL_STREAM', '8:49486'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'neil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/neil/.local/bin:/home/neil/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/neil-Inspiron-5379:@/tmp/.ICE-unix/1966,unix/neil-Inspiron-5379:/tmp/.ICE-unix/1966'), ('INVOCATION_ID', '8445618c0dab4156858f33e55150047c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f43a85ae_131b_4df7_91d2_0dbf441ca482'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/neil/ros2_neil_ws/build/neil_localization_hack'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/Vimba_6_0/VimbaUSBTL/CTI/x86_64bit'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[11.917543] (neil_localization_hack) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.918053] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform\n'}
+[11.920698] (neil_localization_hack) StdoutLine: {'line': b'-- Set runtime path of "/home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform" to ""\n'}
+[11.920986] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/package_run_dependencies/neil_localization_hack\n'}
+[11.921244] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/parent_prefix_path/neil_localization_hack\n'}
+[11.921498] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.sh\n'}
+[11.921736] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.dsv\n'}
+[11.921964] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.sh\n'}
+[11.922206] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.dsv\n'}
+[11.922447] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.bash\n'}
+[11.922677] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.sh\n'}
+[11.922899] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.zsh\n'}
+[11.923126] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.dsv\n'}
+[11.923349] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.dsv\n'}
+[11.923576] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/packages/neil_localization_hack\n'}
+[11.923811] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig.cmake\n'}
+[11.924048] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig-version.cmake\n'}
+[11.924255] (neil_localization_hack) StdoutLine: {'line': b'-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.xml\n'}
+[11.926755] (neil_localization_hack) CommandEnded: {'returncode': 0}
+[11.943160] (-) TimerEvent: {}
+[12.022234] (neil_localization_hack) JobEnded: {'identifier': 'neil_localization_hack', 'rc': 0}
+[12.023428] (-) EventReactorShutdown: {}

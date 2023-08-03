@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target geo_transform[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o[0m
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K In lambda function:
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:116:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  116 |   auto lambda = [&](double a, double b){return abs(a) + abs(b)[01;31m[K}[m[K;
+      |                                                               [01;31m[K^[m[K
+      |                                                               [32m[K;[m[K
+make[2]: *** [CMakeFiles/geo_transform.dir/build.make:63: CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/geo_transform.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

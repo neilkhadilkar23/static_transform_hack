@@ -1,0 +1,80 @@
+[0.020s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/neil/ros2_neil_ws/src/neil_localization_hack -DCMAKE_INSTALL_PREFIX=/home/neil/ros2_neil_ws/install/neil_localization_hack
+[0.286s] -- The C compiler identification is GNU 9.4.0
+[0.491s] -- The CXX compiler identification is GNU 9.4.0
+[0.499s] -- Check for working C compiler: /usr/bin/cc
+[0.579s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.580s] -- Detecting C compiler ABI info
+[0.662s] -- Detecting C compiler ABI info - done
+[0.675s] -- Detecting C compile features
+[0.675s] -- Detecting C compile features - done
+[0.679s] -- Check for working CXX compiler: /usr/bin/c++
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.764s] -- Detecting CXX compiler ABI info
+[0.849s] -- Detecting CXX compiler ABI info - done
+[0.861s] -- Detecting CXX compile features
+[0.862s] -- Detecting CXX compile features - done
+[0.891s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.932s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.933s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.218s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.277s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.285s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.393s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.422s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.504s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.569s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.571s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.573s] -- Looking for pthread.h
+[1.654s] -- Looking for pthread.h - found
+[1.654s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.735s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.735s] -- Looking for pthread_create in pthreads
+[1.850s] -- Looking for pthread_create in pthreads - not found
+[1.850s] -- Looking for pthread_create in pthread
+[1.940s] -- Looking for pthread_create in pthread - found
+[1.942s] -- Found Threads: TRUE  
+[2.728s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.883s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[2.898s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[3.324s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[3.328s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.455s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.457s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.457s] -- Configured cppcheck include dirs: /home/neil/ros2_neil_ws/src/neil_localization_hack/include;$<BUILD_INTERFACE:/home/neil/ros2_neil_ws/src/neil_localization_hack/include>
+[3.458s] -- Configured cppcheck exclude dirs and/or files: 
+[3.459s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.459s] -- Configured cpplint exclude dirs and/or files: 
+[3.460s] -- Added test 'lint_cmake' to check CMake code style
+[3.462s] -- Added test 'uncrustify' to check C / C++ code style
+[3.462s] -- Configured uncrustify additional arguments: 
+[3.463s] -- Added test 'xmllint' to check XML markup files
+[3.470s] -- Configuring done
+[3.519s] -- Generating done
+[3.522s] -- Build files have been written to: /home/neil/ros2_neil_ws/build/neil_localization_hack
+[3.533s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/neil/ros2_neil_ws/src/neil_localization_hack -DCMAKE_INSTALL_PREFIX=/home/neil/ros2_neil_ws/install/neil_localization_hack
+[3.537s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+[3.587s] [35m[1mScanning dependencies of target geo_transform[0m
+[3.738s] [ 50%] [32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o[0m
+[11.024s] [100%] [32m[1mLinking CXX executable geo_transform[0m
+[11.838s] [100%] Built target geo_transform
+[11.853s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+[11.904s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/neil/ros2_neil_ws/build/neil_localization_hack
+[11.917s] -- Install configuration: ""
+[11.918s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform
+[11.920s] -- Set runtime path of "/home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform" to ""
+[11.921s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/package_run_dependencies/neil_localization_hack
+[11.921s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/parent_prefix_path/neil_localization_hack
+[11.921s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.sh
+[11.921s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.dsv
+[11.921s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.sh
+[11.922s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.dsv
+[11.922s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.bash
+[11.922s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.sh
+[11.922s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.zsh
+[11.923s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.dsv
+[11.923s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.dsv
+[11.923s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/packages/neil_localization_hack
+[11.923s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig.cmake
+[11.923s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig-version.cmake
+[11.924s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.xml
+[11.928s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/neil/ros2_neil_ws/build/neil_localization_hack

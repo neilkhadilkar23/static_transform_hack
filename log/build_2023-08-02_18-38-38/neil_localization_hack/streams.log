@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+[0.069s] [35m[1mScanning dependencies of target geo_transform[0m
+[0.101s] [ 50%] [32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o[0m
+[5.227s] [100%] [32m[1mLinking CXX executable geo_transform[0m
+[5.584s] [100%] Built target geo_transform
+[5.598s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+[5.642s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/neil/ros2_neil_ws/build/neil_localization_hack
+[5.652s] -- Install configuration: ""
+[5.652s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform
+[5.655s] -- Set runtime path of "/home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform" to ""
+[5.655s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/package_run_dependencies/neil_localization_hack
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/parent_prefix_path/neil_localization_hack
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.sh
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.dsv
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.sh
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.dsv
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.bash
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.sh
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.zsh
+[5.656s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.dsv
+[5.657s] -- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.dsv
+[5.657s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/packages/neil_localization_hack
+[5.657s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig.cmake
+[5.657s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig-version.cmake
+[5.657s] -- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.xml
+[5.662s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/neil/ros2_neil_ws/build/neil_localization_hack

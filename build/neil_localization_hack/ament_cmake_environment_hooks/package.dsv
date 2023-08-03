@@ -1,0 +1,4 @@
+source;share/neil_localization_hack/local_setup.bash
+source;share/neil_localization_hack/local_setup.dsv
+source;share/neil_localization_hack/local_setup.sh
+source;share/neil_localization_hack/local_setup.zsh

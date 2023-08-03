@@ -1,0 +1,97 @@
+[0.024s] Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+[0.233s] [35m[1mScanning dependencies of target geo_transform[0m
+[0.279s] [ 50%] [32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o[0m
+[1.877s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:58:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMapFrameInit::[m[K’ on member ‘[01m[Ktopic_callback[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.877s]    58 | void [01;31m[KMapFrameInit[m[K::topic_callback(const sensor_msgs::msg::NavSatFix::SharedPtr msg){
+[1.877s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.877s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:58:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MapFrameInit::topic_callback(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr)[m[K’ cannot be overloaded with ‘[01m[Kvoid MapFrameInit::topic_callback(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr)[m[K’
+[1.877s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:48:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MapFrameInit::topic_callback(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr)[m[K’
+[1.877s]    48 |   void [01;36m[Ktopic_callback[m[K(const sensor_msgs::msg::NavSatFix::SharedPtr msg);
+[1.877s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[1.877s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:75:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMapFrameInit::[m[K’ on member ‘[01m[Kgenerate_transform[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.878s]    75 | void [01;31m[KMapFrameInit[m[K::generate_transform(const std::vector<double>& msg){
+[1.878s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.878s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:75:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MapFrameInit::generate_transform(const std::vector<double, std::allocator<double> >&)[m[K’ cannot be overloaded with ‘[01m[Kvoid MapFrameInit::generate_transform(const std::vector<double, std::allocator<double> >&)[m[K’
+[1.878s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:50:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MapFrameInit::generate_transform(const std::vector<double, std::allocator<double> >&)[m[K’
+[1.878s]    50 |   void [01;36m[Kgenerate_transform[m[K(const std::vector<double>& msg);
+[1.878s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[1.878s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:107:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMapFrameInit::[m[K’ on member ‘[01m[Kgeo_to_cartesian[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.878s]   107 | void [01;31m[KMapFrameInit[m[K::geo_to_cartesian(double lat, double lon, double alt, std::vector<double>& local_cart){
+[1.878s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.878s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:107:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MapFrameInit::geo_to_cartesian(double, double, double, std::vector<double, std::allocator<double> >&)[m[K’ cannot be overloaded with ‘[01m[Kvoid MapFrameInit::geo_to_cartesian(double, double, double, std::vector<double, std::allocator<double> >&)[m[K’
+[1.878s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:51:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MapFrameInit::geo_to_cartesian(double, double, double, std::vector<double, std::allocator<double> >&)[m[K’
+[1.878s]    51 |   void [01;36m[Kgeo_to_cartesian[m[K(double lat, double lon, double alt, std::vector<double>& local_cart);
+[1.878s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.879s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:114:6:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KMapFrameInit::[m[K’ on member ‘[01m[Kcovariance_check[m[K’ [[01;31m[K-fpermissive[m[K]
+[1.879s]   114 | bool [01;31m[KMapFrameInit[m[K::covariance_check(const sensor_msgs::msg::NavSatFix::SharedPtr msg, double upper_bound_){
+[1.879s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[1.879s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:114:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kbool MapFrameInit::covariance_check(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr, double)[m[K’ cannot be overloaded with ‘[01m[Kbool MapFrameInit::covariance_check(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr, double)[m[K’
+[1.879s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:53:8:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kbool MapFrameInit::covariance_check(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr, double)[m[K’
+[1.879s]    53 |   bool [01;36m[Kcovariance_check[m[K(const sensor_msgs::msg::NavSatFix::SharedPtr msg, double upper_bound_){
+[1.879s]       |        [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[1.879s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:128:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.879s]   128 | [01;31m[K}[m[K
+[1.879s]       | [01;31m[K^[m[K
+[1.879s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:35:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.879s]    35 | [01;36m[K{[m[K
+[1.879s]       | [01;36m[K^[m[K
+[1.881s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K In constructor ‘[01m[KMapFrameInit::MapFrameInit()[m[K’:
+[1.881s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:38:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_subscription_t[m[K’?
+[1.882s]    38 |     [01;31m[Ksubscription_[m[K = this->create_subscription<sensor_msgs::msg::NavSatFix>(
+[1.882s]       |     [01;31m[K^~~~~~~~~~~~~[m[K
+[1.882s]       |     [32m[Krcl_subscription_t[m[K
+[1.903s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:41:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass MapFrameInit[m[K’ has no member named ‘[01m[Ktf_broadcaster_[m[K’
+[1.904s]    41 |     this->[01;31m[Ktf_broadcaster_[m[K = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
+[1.904s]       |           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.925s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K In member function ‘[01m[Kbool MapFrameInit::covariance_check(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr, double)[m[K’:
+[1.925s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:56:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+[1.925s]    56 | [01;35m[K}[m[K;
+[1.925s]       | [01;35m[K^[m[K
+[1.925s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:53:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.925s]    53 |   bool covariance_check([01;35m[Kconst sensor_msgs::msg::NavSatFix::SharedPtr msg[m[K, double upper_bound_){
+[1.925s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[1.926s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:53:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kupper_bound_[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.926s]    53 |   bool covariance_check(const sensor_msgs::msg::NavSatFix::SharedPtr msg, [01;35m[Kdouble upper_bound_[m[K){
+[1.926s]       |                                                                           [01;35m[K~~~~~~~^~~~~~~~~~~~[m[K
+[1.931s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K In member function ‘[01m[Kvoid MapFrameInit::generate_transform(const std::vector<double, std::allocator<double> >&)[m[K’:
+[1.932s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:101:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf_broadcaster_[m[K’ was not declared in this scope
+[1.932s]   101 |     [01;31m[Ktf_broadcaster_[m[K->sendTransform(t);
+[1.932s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[1.932s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K In lambda function:
+[1.932s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:116:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.932s]   116 |   auto lambda = [&](double a){return (a >= 0) ? a : -a[01;31m[K}[m[K;
+[1.932s]       |                                                       [01;31m[K^[m[K
+[1.932s]       |                                                       [32m[K;[m[K
+[1.938s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:[m[K At global scope:
+[1.938s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:128:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.938s]   128 | [01;31m[K}[m[K
+[1.939s]       | [01;31m[K^[m[K
+[2.048s] In file included from [01m[K/usr/include/c++/9/numeric:62[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/moving_average_statistics/moving_average.hpp:23[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/collector.hpp:22[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:24[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:26[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:26[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.049s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.050s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.050s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.050s]                  from [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:18[m[K:
+[2.050s] /usr/include/c++/9/bits/stl_numeric.h: In instantiation of ‘[01m[K_Tp std::accumulate(_InputIterator, _InputIterator, _Tp, _BinaryOperation) [with _InputIterator = double*; _Tp = double; _BinaryOperation = MapFrameInit::covariance_check(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr, double)::<lambda(double)>][m[K’:
+[2.050s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:117:121:[m[K   required from here
+[2.050s] [01m[K/usr/include/c++/9/bits/stl_numeric.h:166:22:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(MapFrameInit::covariance_check(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr, double)::<lambda(double)>) (double&, double&)[m[K’
+[2.050s]   166 |  __init = [01;31m[K__binary_op(_GLIBCXX_MOVE_IF_20(__init), *__first)[m[K;
+[2.050s]       |           [01;31m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.050s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:116:17:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMapFrameInit::covariance_check(sensor_msgs::msg::NavSatFix_<std::allocator<void> >::SharedPtr, double)::<lambda(double)>[m[K’
+[2.050s]   116 |   auto lambda = [01;36m[K[[m[K&](double a){return (a >= 0) ? a : -a};
+[2.050s]       |                 [01;36m[K^[m[K
+[2.050s] [01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/geo_transform.cpp:116:17:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[3.623s] make[2]: *** [CMakeFiles/geo_transform.dir/build.make:63: CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o] Error 1
+[3.624s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/geo_transform.dir/all] Error 2
+[3.624s] make: *** [Makefile:141: all] Error 2
+[3.628s] Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
