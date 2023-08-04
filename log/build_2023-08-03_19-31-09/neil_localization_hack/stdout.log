@@ -1,0 +1,25 @@
+[35m[1mScanning dependencies of target path_publisher[0m
+[ 50%] Built target geo_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable path_publisher[0m
+[100%] Built target path_publisher
+-- Install configuration: ""
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform
+-- Set runtime path of "/home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/geo_transform" to ""
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/path_publisher
+-- Set runtime path of "/home/neil/ros2_neil_ws/install/neil_localization_hack/lib/neil_localization_hack/path_publisher" to ""
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/package_run_dependencies/neil_localization_hack
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/parent_prefix_path/neil_localization_hack
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.sh
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.sh
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/environment/path.dsv
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.bash
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.sh
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.zsh
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/local_setup.dsv
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.dsv
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/ament_index/resource_index/packages/neil_localization_hack
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig.cmake
+-- Up-to-date: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/cmake/neil_localization_hackConfig-version.cmake
+-- Installing: /home/neil/ros2_neil_ws/install/neil_localization_hack/share/neil_localization_hack/package.xml

@@ -1,0 +1,4 @@
+Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/neil/ros2_neil_ws/build/neil_localization_hack -- -j8 -l8
+Invoking command in '/home/neil/ros2_neil_ws/build/neil_localization_hack': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/neil/ros2_neil_ws/build/neil_localization_hack
+Invoked command in '/home/neil/ros2_neil_ws/build/neil_localization_hack' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/neil/ros2_neil_ws/build/neil_localization_hack

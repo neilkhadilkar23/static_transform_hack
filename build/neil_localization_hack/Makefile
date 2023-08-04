@@ -194,6 +194,19 @@ neil_localization_hack_uninstall/fast:
 .PHONY : neil_localization_hack_uninstall/fast
 
 #=============================================================================
+# Target rules for targets named path_publisher
+
+# Build rule for target.
+path_publisher: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 path_publisher
+.PHONY : path_publisher
+
+# fast build rule for target.
+path_publisher/fast:
+	$(MAKE) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/build
+.PHONY : path_publisher/fast
+
+#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -233,6 +246,33 @@ src/geo_transform.cpp.s:
 	$(MAKE) -f CMakeFiles/geo_transform.dir/build.make CMakeFiles/geo_transform.dir/src/geo_transform.cpp.s
 .PHONY : src/geo_transform.cpp.s
 
+src/path_publisher.o: src/path_publisher.cpp.o
+
+.PHONY : src/path_publisher.o
+
+# target to build an object file
+src/path_publisher.cpp.o:
+	$(MAKE) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o
+.PHONY : src/path_publisher.cpp.o
+
+src/path_publisher.i: src/path_publisher.cpp.i
+
+.PHONY : src/path_publisher.i
+
+# target to preprocess a source file
+src/path_publisher.cpp.i:
+	$(MAKE) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/src/path_publisher.cpp.i
+.PHONY : src/path_publisher.cpp.i
+
+src/path_publisher.s: src/path_publisher.cpp.s
+
+.PHONY : src/path_publisher.s
+
+# target to generate assembly for a file
+src/path_publisher.cpp.s:
+	$(MAKE) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/src/path_publisher.cpp.s
+.PHONY : src/path_publisher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -248,10 +288,14 @@ help:
 	@echo "... test"
 	@echo "... geo_transform"
 	@echo "... neil_localization_hack_uninstall"
+	@echo "... path_publisher"
 	@echo "... uninstall"
 	@echo "... src/geo_transform.o"
 	@echo "... src/geo_transform.i"
 	@echo "... src/geo_transform.s"
+	@echo "... src/path_publisher.o"
+	@echo "... src/path_publisher.i"
+	@echo "... src/path_publisher.s"
 .PHONY : help
 
 

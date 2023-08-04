@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target path_publisher[0m
+[ 50%] Built target geo_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o[0m

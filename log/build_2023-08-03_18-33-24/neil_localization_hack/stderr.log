@@ -1,0 +1,28 @@
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:86:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KPathPublisher::[m[K’ on member ‘[01m[Kgenerate_pose[m[K’ [[01;31m[K-fpermissive[m[K]
+   86 |     void [01;31m[KPathPublisher[m[K::generate_pose(const geometry_msgs::msg::TransformStamped& t){
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:[m[K In member function ‘[01m[Kvoid PathPublisher::timer_callback()[m[K’:
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:51:22:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msg[m[K’ has not been declared
+   51 |       auto message = [01;31m[Knav_msg[m[K::msg::Path();
+      |                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:[m[K In member function ‘[01m[Kvoid PathPublisher::generate_pose(const TransformStamped&)[m[K’:
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:98:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst TransformStamped[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+   98 |       p.x = t.[01;31m[Ktranslation[m[K.at(0);
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:99:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst TransformStamped[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+   99 |       p.y = t.[01;31m[Ktranslation[m[K.at(1);
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:100:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst TransformStamped[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ktranslation[m[K’
+  100 |       p.z = t.[01;31m[Ktranslation[m[K.at(2);
+      |               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:115:39:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+  115 |       this->current_path_.push_back(s)
+      |                                       [01;31m[K^[m[K
+      |                                       [32m[K;[m[K
+......
+  118 |     [32m[K}[m[K
+      |     [32m[K~[m[K                                  
+make[2]: *** [CMakeFiles/path_publisher.dir/build.make:63: CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/path_publisher.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

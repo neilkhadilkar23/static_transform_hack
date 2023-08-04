@@ -84,8 +84,13 @@ geo_transform: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspectio
 geo_transform: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
 geo_transform: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
 geo_transform: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+geo_transform: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+geo_transform: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_c.so
+geo_transform: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+geo_transform: /opt/ros/foxy/lib/libnav_msgs__rosidl_typesupport_cpp.so
 geo_transform: /opt/ros/foxy/lib/libstatic_transform_broadcaster_node.so
 geo_transform: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
+geo_transform: /opt/ros/foxy/lib/libnav_msgs__rosidl_generator_c.so
 geo_transform: /opt/ros/foxy/lib/libtf2_ros.so
 geo_transform: /opt/ros/foxy/lib/libtf2.so
 geo_transform: /opt/ros/foxy/lib/libmessage_filters.so

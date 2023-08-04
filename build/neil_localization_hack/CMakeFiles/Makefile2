@@ -54,6 +54,7 @@ CMAKE_BINARY_DIR = /home/neil/ros2_neil_ws/build/neil_localization_hack
 
 # The main recursive "all" target.
 all: CMakeFiles/geo_transform.dir/all
+all: CMakeFiles/path_publisher.dir/all
 
 .PHONY : all
 
@@ -65,6 +66,7 @@ preinstall:
 # The main recursive "clean" target.
 clean: CMakeFiles/geo_transform.dir/clean
 clean: CMakeFiles/neil_localization_hack_uninstall.dir/clean
+clean: CMakeFiles/path_publisher.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
@@ -122,6 +124,33 @@ neil_localization_hack_uninstall: CMakeFiles/neil_localization_hack_uninstall.di
 CMakeFiles/neil_localization_hack_uninstall.dir/clean:
 	$(MAKE) -f CMakeFiles/neil_localization_hack_uninstall.dir/build.make CMakeFiles/neil_localization_hack_uninstall.dir/clean
 .PHONY : CMakeFiles/neil_localization_hack_uninstall.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/path_publisher.dir
+
+# All Build rule for target.
+CMakeFiles/path_publisher.dir/all:
+	$(MAKE) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/depend
+	$(MAKE) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles --progress-num=3,4 "Built target path_publisher"
+.PHONY : CMakeFiles/path_publisher.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/path_publisher.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/path_publisher.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles 0
+.PHONY : CMakeFiles/path_publisher.dir/rule
+
+# Convenience name for target.
+path_publisher: CMakeFiles/path_publisher.dir/rule
+
+.PHONY : path_publisher
+
+# clean rule for target.
+CMakeFiles/path_publisher.dir/clean:
+	$(MAKE) -f CMakeFiles/path_publisher.dir/build.make CMakeFiles/path_publisher.dir/clean
+.PHONY : CMakeFiles/path_publisher.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir

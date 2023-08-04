@@ -7,4 +7,5 @@
 /home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles/test.dir
 /home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles/geo_transform.dir
 /home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles/neil_localization_hack_uninstall.dir
+/home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles/path_publisher.dir
 /home/neil/ros2_neil_ws/build/neil_localization_hack/CMakeFiles/uninstall.dir

@@ -412,6 +412,9 @@ libyaml_vendor_DIR:PATH=/opt/ros/foxy/share/libyaml_vendor/cmake
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/foxy/share/message_filters/cmake
 
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/foxy/share/nav_msgs/cmake
+
 //Value Computed by CMake
 neil_localization_hack_BINARY_DIR:STATIC=/home/neil/ros2_neil_ws/build/neil_localization_hack
 

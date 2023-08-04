@@ -77,22 +77,17 @@ void MapFrameInit::topic_callback(const sensor_msgs::msg::NavSatFix::SharedPtr m
   //consts here prevent changing msg and C* this
 void MapFrameInit::generate_transform(const std::vector<double>& msg){
     geometry_msgs::msg::TransformStamped t;
-
+    //from ros2 tutorials
     // Read message content and assign it to
     // corresponding tf variables
     t.header.stamp = this->get_clock()->now();
     t.header.frame_id = "map";
     t.child_frame_id = "odom";
 
-    // Turtle only exists in 2D, thus we get x and y translation
-    // coordinates from the message and set the z coordinate to 0
     t.transform.translation.x = msg.at(0);
     t.transform.translation.y = msg.at(1);
     t.transform.translation.z = msg.at(2);
 
-    // For the same reason, turtle can only rotate around one axis
-    // and this why we set rotation in x and y to 0 and obtain
-    // rotation in z axis from the message
     tf2::Quaternion q;
     q.setRPY(0, 0, 0);
     t.transform.rotation.x = q.x();
@@ -106,6 +101,7 @@ void MapFrameInit::generate_transform(const std::vector<double>& msg){
 
 
   }
+
 
 void MapFrameInit::geo_to_cartesian(double lat, double lon, double alt, std::vector<double>& local_cart){
     GeographicLib::LocalCartesian proj(this->m_lat,this->m_long,this->m_alt, this->earth);

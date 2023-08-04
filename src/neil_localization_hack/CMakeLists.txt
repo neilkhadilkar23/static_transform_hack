@@ -24,6 +24,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_ros REQUIRED)
 
@@ -34,17 +35,19 @@ set(dependencies
     std_msgs 
     sensor_msgs 
     geometry_msgs
+    nav_msgs
     tf2
     tf2_ros
+    
 )
 
 include_directories(include)
-
+#GEO TRANSFORM
 add_executable(geo_transform src/geo_transform.cpp)
-
 target_link_libraries(geo_transform ${GeographicLib_LIBRARIES})
 #END GEOLIB INCLUDES
 ament_target_dependencies(geo_transform ${dependencies})
+
 
 target_include_directories(geo_transform PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
@@ -53,6 +56,23 @@ target_include_directories(geo_transform PUBLIC
 install(TARGETS geo_transform
   DESTINATION lib/${PROJECT_NAME})
 
+#GEO TRANSFORM
+
+
+#PATH PUBLISHER
+add_executable(path_publisher src/path_publisher.cpp)
+#END GEOLIB INCLUDES
+ament_target_dependencies(path_publisher ${dependencies})
+
+
+target_include_directories(path_publisher PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+
+install(TARGETS path_publisher
+  DESTINATION lib/${PROJECT_NAME})
+
+#PATH PUBLISHER
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
   # the following line skips the linter which checks for copyrights

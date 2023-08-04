@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (neil_localization_hack) JobQueued: {'identifier': 'neil_localization_hack', 'dependencies': OrderedDict()}
+[0.000150] (neil_localization_hack) JobStarted: {'identifier': 'neil_localization_hack'}
+[0.018304] (neil_localization_hack) JobProgress: {'identifier': 'neil_localization_hack', 'progress': 'cmake'}
+[0.020218] (neil_localization_hack) JobProgress: {'identifier': 'neil_localization_hack', 'progress': 'build'}
+[0.020397] (neil_localization_hack) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/neil/ros2_neil_ws/build/neil_localization_hack', '--', '-j8', '-l8'], 'cwd': '/home/neil/ros2_neil_ws/build/neil_localization_hack', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neil'), ('SSH_AGENT_PID', '1859'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/neil'), ('OLDPWD', '/opt/ros/foxy/include/nav_msgs/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1340'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'neil'), ('JOURNAL_STREAM', '8:49224'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'neil'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/neil/.local/bin:/home/neil/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/neil-Inspiron-5379:@/tmp/.ICE-unix/1898,unix/neil-Inspiron-5379:/tmp/.ICE-unix/1898'), ('INVOCATION_ID', 'ab22a2829dec40c192c968e42eefc067'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/aaf399ee_3a22_4729_957a_a6bdbd4e004b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.145'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/neil/ros2_neil_ws/build/neil_localization_hack'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', ':/opt/Vimba_6_0/VimbaUSBTL/CTI/x86_64bit'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.084949] (neil_localization_hack) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099318] (-) TimerEvent: {}
+[0.110805] (neil_localization_hack) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199451] (-) TimerEvent: {}
+[0.299726] (-) TimerEvent: {}
+[0.309544] (neil_localization_hack) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.358119] (neil_localization_hack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.362441] (neil_localization_hack) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.399849] (-) TimerEvent: {}
+[0.487503] (neil_localization_hack) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499979] (-) TimerEvent: {}
+[0.545035] (neil_localization_hack) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.547046] (neil_localization_hack) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600100] (-) TimerEvent: {}
+[0.700366] (-) TimerEvent: {}
+[0.721546] (neil_localization_hack) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.800496] (-) TimerEvent: {}
+[0.842157] (neil_localization_hack) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.900610] (-) TimerEvent: {}
+[0.916946] (neil_localization_hack) StdoutLine: {'line': b'-- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)\n'}
+[0.927405] (neil_localization_hack) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.000744] (-) TimerEvent: {}
+[1.101016] (-) TimerEvent: {}
+[1.201296] (-) TimerEvent: {}
+[1.264832] (neil_localization_hack) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.301398] (-) TimerEvent: {}
+[1.329551] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.330705] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.331048] (neil_localization_hack) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/neil/ros2_neil_ws/src/neil_localization_hack/include;$<BUILD_INTERFACE:/home/neil/ros2_neil_ws/src/neil_localization_hack/include>\n'}
+[1.331143] (neil_localization_hack) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.332051] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.332142] (neil_localization_hack) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.332962] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.334173] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.334291] (neil_localization_hack) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.334677] (neil_localization_hack) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.338595] (neil_localization_hack) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.362256] (neil_localization_hack) StdoutLine: {'line': b'-- Generating done\n'}
+[1.365065] (neil_localization_hack) StdoutLine: {'line': b'-- Build files have been written to: /home/neil/ros2_neil_ws/build/neil_localization_hack\n'}
+[1.391401] (neil_localization_hack) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target path_publisher\x1b[0m\n'}
+[1.401505] (-) TimerEvent: {}
+[1.405190] (neil_localization_hack) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target geo_transform\x1b[0m\n'}
+[1.439140] (neil_localization_hack) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/geo_transform.dir/src/geo_transform.cpp.o\x1b[0m\n'}
+[1.501697] (-) TimerEvent: {}
+[1.591101] (neil_localization_hack) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o\x1b[0m\n'}
+[1.601817] (-) TimerEvent: {}
+[1.702149] (-) TimerEvent: {}
+[1.802474] (-) TimerEvent: {}
+[1.902829] (-) TimerEvent: {}
+[2.003126] (-) TimerEvent: {}
+[2.103438] (-) TimerEvent: {}
+[2.203739] (-) TimerEvent: {}
+[2.304053] (-) TimerEvent: {}
+[2.404381] (-) TimerEvent: {}
+[2.504734] (-) TimerEvent: {}
+[2.605041] (-) TimerEvent: {}
+[2.705372] (-) TimerEvent: {}
+[2.805699] (-) TimerEvent: {}
+[2.906013] (-) TimerEvent: {}
+[2.992897] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:86:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kextra qualification \xe2\x80\x98\x1b[01m\x1b[KPathPublisher::\x1b[m\x1b[K\xe2\x80\x99 on member \xe2\x80\x98\x1b[01m\x1b[Kgenerate_pose\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.993099] (neil_localization_hack) StderrLine: {'line': b'   86 |     void \x1b[01;31m\x1b[KPathPublisher\x1b[m\x1b[K::generate_pose(const geometry_msgs::msg::TransformStamped& t){\n'}
+[2.993181] (neil_localization_hack) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.006121] (-) TimerEvent: {}
+[3.032452] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.032649] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:51:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav_msg\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.032732] (neil_localization_hack) StderrLine: {'line': b'   51 |       auto message = \x1b[01;31m\x1b[Knav_msg\x1b[m\x1b[K::msg::Path();\n'}
+[3.032809] (neil_localization_hack) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.033910] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PathPublisher::generate_pose(const TransformStamped&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.034035] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:98:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktranslation\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.034162] (neil_localization_hack) StderrLine: {'line': b'   98 |       p.x = t.\x1b[01;31m\x1b[Ktranslation\x1b[m\x1b[K.at(0);\n'}
+[3.034362] (neil_localization_hack) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.034499] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:99:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktranslation\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.034631] (neil_localization_hack) StderrLine: {'line': b'   99 |       p.y = t.\x1b[01;31m\x1b[Ktranslation\x1b[m\x1b[K.at(1);\n'}
+[3.034750] (neil_localization_hack) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.034874] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:100:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct geometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Ktranslation\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.035020] (neil_localization_hack) StderrLine: {'line': b'  100 |       p.z = t.\x1b[01;31m\x1b[Ktranslation\x1b[m\x1b[K.at(2);\n'}
+[3.035143] (neil_localization_hack) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.035281] (neil_localization_hack) StderrLine: {'line': b'\x1b[01m\x1b[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:115:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.035404] (neil_localization_hack) StderrLine: {'line': b'  115 |       this->current_path_.push_back(s)\n'}
+[3.035524] (neil_localization_hack) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.035645] (neil_localization_hack) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.035766] (neil_localization_hack) StderrLine: {'line': b'......\n'}
+[3.035886] (neil_localization_hack) StderrLine: {'line': b'  118 |     \x1b[32m\x1b[K}\x1b[m\x1b[K\n'}
+[3.036006] (neil_localization_hack) StderrLine: {'line': b'      |     \x1b[32m\x1b[K~\x1b[m\x1b[K                                  \n'}
+[3.106257] (-) TimerEvent: {}
+[3.206569] (-) TimerEvent: {}
+[3.306880] (-) TimerEvent: {}
+[3.407187] (-) TimerEvent: {}
+[3.507508] (-) TimerEvent: {}
+[3.607857] (-) TimerEvent: {}
+[3.708198] (-) TimerEvent: {}
+[3.808552] (-) TimerEvent: {}
+[3.908856] (-) TimerEvent: {}
+[4.009204] (-) TimerEvent: {}
+[4.109543] (-) TimerEvent: {}
+[4.117501] (neil_localization_hack) StderrLine: {'line': b'make[2]: *** [CMakeFiles/path_publisher.dir/build.make:63: CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o] Error 1\n'}
+[4.117806] (neil_localization_hack) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/path_publisher.dir/all] Error 2\n'}
+[4.117918] (neil_localization_hack) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[4.209678] (-) TimerEvent: {}
+[4.309968] (-) TimerEvent: {}
+[4.410272] (-) TimerEvent: {}
+[4.510592] (-) TimerEvent: {}
+[4.610925] (-) TimerEvent: {}
+[4.711272] (-) TimerEvent: {}
+[4.811611] (-) TimerEvent: {}
+[4.911904] (-) TimerEvent: {}
+[5.012196] (-) TimerEvent: {}
+[5.112484] (-) TimerEvent: {}
+[5.212760] (-) TimerEvent: {}
+[5.313049] (-) TimerEvent: {}
+[5.413325] (-) TimerEvent: {}
+[5.513601] (-) TimerEvent: {}
+[5.613893] (-) TimerEvent: {}
+[5.714182] (-) TimerEvent: {}
+[5.814475] (-) TimerEvent: {}
+[5.914755] (-) TimerEvent: {}
+[6.015041] (-) TimerEvent: {}
+[6.115326] (-) TimerEvent: {}
+[6.215600] (-) TimerEvent: {}
+[6.315888] (-) TimerEvent: {}
+[6.416347] (-) TimerEvent: {}
+[6.516888] (-) TimerEvent: {}
+[6.617470] (-) TimerEvent: {}
+[6.717799] (-) TimerEvent: {}
+[6.818139] (-) TimerEvent: {}
+[6.861913] (neil_localization_hack) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable geo_transform\x1b[0m\n'}
+[6.918280] (-) TimerEvent: {}
+[7.018687] (-) TimerEvent: {}
+[7.119317] (-) TimerEvent: {}
+[7.219678] (-) TimerEvent: {}
+[7.274490] (neil_localization_hack) StdoutLine: {'line': b'[ 75%] Built target geo_transform\n'}
+[7.275730] (neil_localization_hack) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.277940] (neil_localization_hack) CommandEnded: {'returncode': 2}
+[7.320748] (-) TimerEvent: {}
+[7.343326] (neil_localization_hack) JobEnded: {'identifier': 'neil_localization_hack', 'rc': 2}
+[7.354179] (-) EventReactorShutdown: {}

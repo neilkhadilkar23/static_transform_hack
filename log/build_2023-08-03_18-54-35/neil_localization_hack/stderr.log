@@ -1,0 +1,19 @@
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:[m[K In member function ‘[01m[Kvoid PathPublisher::timer_callback()[m[K’:
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:56:57:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K[[m[K’ token
+   56 |         path_msg.poses = geometry_msgs::msg::PoseStamped[01;31m[K[[m[Kthis->current_path.size()];
+      |                                                         [01;31m[K^[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:56:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PathPublisher[m[K’ has no member named ‘[01m[Kcurrent_path[m[K’; did you mean ‘[01m[Kcurrent_path_[m[K’?
+   56 |         path_msg.poses = geometry_msgs::msg::PoseStamped[this->[01;31m[Kcurrent_path[m[K.size()];
+      |                                                                [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                                [32m[Kcurrent_path_[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:57:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PathPublisher[m[K’ has no member named ‘[01m[Kcurrent_path[m[K’; did you mean ‘[01m[Kcurrent_path_[m[K’?
+   57 |         std::copy(this->[01;31m[Kcurrent_path[m[K.begin(),this->current_path.end(),&path_msg.poses[0]);
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                         [32m[Kcurrent_path_[m[K
+[01m[K/home/neil/ros2_neil_ws/src/neil_localization_hack/src/path_publisher.cpp:57:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass PathPublisher[m[K’ has no member named ‘[01m[Kcurrent_path[m[K’; did you mean ‘[01m[Kcurrent_path_[m[K’?
+   57 |         std::copy(this->current_path.begin(),this->[01;31m[Kcurrent_path[m[K.end(),&path_msg.poses[0]);
+      |                                                    [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                    [32m[Kcurrent_path_[m[K
+make[2]: *** [CMakeFiles/path_publisher.dir/build.make:63: CMakeFiles/path_publisher.dir/src/path_publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/path_publisher.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
