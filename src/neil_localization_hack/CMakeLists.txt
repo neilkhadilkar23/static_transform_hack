@@ -71,7 +71,11 @@ target_include_directories(path_publisher PUBLIC
 
 install(TARGETS path_publisher
   DESTINATION lib/${PROJECT_NAME})
-
+# Install launch files.
+install(DIRECTORY
+  launch
+  DESTINATION share/${PROJECT_NAME}/
+)
 #PATH PUBLISHER
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
